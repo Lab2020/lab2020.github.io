@@ -102,7 +102,7 @@ main {
     left: 0; }
 
 .banner {
-  background: url("../img/banner-01.jpg") no-repeat center/cover fixed;
+  background: url("../img/banner-00.jpg") no-repeat center/cover fixed;
   padding: 20rem 0;
   color: #fff;
   position: relative; }
