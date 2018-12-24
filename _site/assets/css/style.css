@@ -143,6 +143,7 @@ main {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); }
 
 .sec_service {
+  transform: translateY(-1px);
   background: linear-gradient(to right, #06cc99, #067375); }
   .sec_service .lists {
     padding: 1rem;
@@ -159,3 +160,16 @@ main {
     .sec_service .service-bar span {
       font-size: 1.5rem;
       color: #026773; }
+
+.sec_products {
+  background: url(../img/banner-02.jpg) no-repeat center/cover fixed; }
+  .sec_products .app_list {
+    list-style: none; }
+    .sec_products .app_list .icn {
+      width: 100%;
+      padding: 15px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.8);
+      text-align: center; }
+    .sec_products .app_list i {
+      font-size: 6rem; }

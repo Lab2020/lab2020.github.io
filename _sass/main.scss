@@ -194,6 +194,7 @@ main {
 }
 
 .sec_service {
+    transform: translateY(-1px);
     background: linear-gradient(to right, $primary-color, $sec-color);
     .lists {
         padding: 1rem;
@@ -216,5 +217,22 @@ main {
             color: $link-color;
         }
     }
-    
+
+}
+
+.sec_products {
+  background: url(../img/banner-02.jpg) no-repeat center / cover fixed;
+  .app_list {
+    list-style: none;
+    .icn {
+      width: 100%;
+      padding: 15px;
+      border-radius: 15px;
+      background: rgba($light-color, 0.8);
+      text-align: center;
+    }
+    i {
+      font-size: 6rem;
+    }
+  }
 }
