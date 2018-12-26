@@ -132,6 +132,32 @@ svg {
   }
 }
 
+.indi {
+  display: flex;
+}
+
+.indi > * {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  border: 1px solid $light-color;
+  color: $light-color;
+  cursor: pointer;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    background: $light-color;
+    i {
+      color: $primary-color;
+    }
+  }
+}
+
+
 // end common
 
 body {
@@ -280,9 +306,8 @@ main {
     width: 100%;
   }
   .blog_ls_post {
-    padding: 1rem;
     color: $dark-color;
-    // background: rgba($light-color, 0.8);
+    border-right: 1px solid rgba($bg-color, 0.1);
     * {
       color: $light-color;
     }
