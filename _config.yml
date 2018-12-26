@@ -1,0 +1,19 @@
+collections:
+  staff_members:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    value:
+      layout: "author"
+  - scpoe:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values: 
+      layout: "default"
